@@ -23,8 +23,6 @@ To set up the project locally, follow these steps:
 
 4. Run the app:
     ```bash
-    Copy
-    Edit
     node index.js
 
 Usage
