@@ -1,20 +1,36 @@
-# muskan-assignment
-# Jira Issues List React Component
+# Personal Jira Integration
 
-This React component, `IssuesList` in the HomeContainer, is designed to fetch and display a paginated list of Jira issues using the Jira API. It allows users to navigate through pages and adjust the number of items displayed per page.
+This project is designed to integrate with Jira's API and perform tasks such as fetching issue details.
 
 ## Installation
-1. Install necessary dependencies:
-  - Package.json file is provided. Just install the package with npm i command
-  - Follow the same step for both frontend and backend.
 
-## ENV VAriables
-2. Specify necessary ENV variables in backend for accessing JIRA APIs.
-   - Required ENV variables
-    - REACT_APP_JIRA_API_TOKEN=<your-jira-api-token>
-    - REACT_APP_JIRA_BASE_URL=<your-jira-base-url>
-    - REACT_APP_JIRA_PROJECT_KEY=<your-jira-project-key>
-    - REACT_APP_JIRA_USER_NAME=<your-jira-user-name>
-    - PORT=<port>>
+To set up the project locally, follow these steps:
 
-3. Ensure your project has appropriate configurations to support the usage of Material-UI components.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sudhakarselvam12/personal-jira-integration.git
+   cd personal-jira-integration
+
+2. Install dependencies:
+    ```bash
+    npm install
+
+3. Create a .env file in the root directory with the following configuration:
+    ```env
+    JIRA_API_URL=your-jira-api-url
+    JIRA_USERNAME=your-jira-username
+    JIRA_API_TOKEN=your-jira-api-token
+
+4. Run the app:
+    ```bash
+    Copy
+    Edit
+    node index.js
+
+Usage
+This project fetches Jira data and logs it to the console.
+
+You can extend this project by adding more Jira API calls, error handling, etc.
+
+Contributing
+Feel free to fork and submit PRs! Issues and contributions are welcome.
